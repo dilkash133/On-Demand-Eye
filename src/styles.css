@@ -1,0 +1,320 @@
+    ul,
+    li {
+        list-style: none;
+        padding: 0;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    div:focus {
+        outline: none;
+    }
+    
+    body {
+        font-family: "Raleway", sans-serif;
+        background: #fff;
+    }
+    
+    .header {
+        padding: 20px 0;
+    }
+    
+    .logo {
+        max-width: 290px;
+    }
+    
+    .header button {
+        position: absolute;
+        right: 15px;
+        font-size: 16px;
+        font-weight: 300;
+        cursor: pointer;
+        color: #8bb4c2;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    
+    .title-sec {
+        padding-bottom: 50px;
+        border-bottom: solid 3px #cfe1e3;
+    }
+    
+    .title-sec h1 {
+        margin: 50px 0;
+        font-size: 50px;
+        font-weight: 300;
+        color: #303031;
+    }
+    
+    .title-sec p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #8bb4c2;
+    }
+    
+    .login-signup {
+        max-width: 915px;
+        min-height: 100px;
+        padding: 30px;
+        margin: 0 auto;
+        overflow: hidden;
+        background: #cfe1e3;
+    }
+    
+    .login-signup h2 {
+        display: block;
+        margin-bottom: 30px;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        color: #303031;
+    }
+    
+    .login-signup label {
+        font-size: 16px;
+        font-weight: 500;
+        color: #303031;
+    }
+    
+    .login-signup input[type="email"],
+    .login-signup input[type="password"] {
+        height: 40px;
+    }
+    
+    .login-signup input[type="submit"] {
+        padding: 14px 40px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #cfe1e3;
+        border-radius: 5px 0 5px 0;
+        background: #231f20;
+    }
+    
+    .form-check {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
+    .footer p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #303031;
+    }
+    
+    .footer {
+        padding: 20px 0;
+    }
+    
+    .title-sec.hello p {
+        font-size: 12px;
+        font-weight: 300;
+        max-width: 430px;
+        margin: 0 auto;
+        overflow: hidden;
+        color: #616263;
+        line-height: 22px;
+    }
+    
+    .title-sec.hello p span {
+        color: #8bb4c2;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .hello-inner-block {
+        background: #cfe1e3;
+        width: 390px;
+        height: 430px;
+        margin: 0 30px;
+    }
+    
+    .hello-middle h2 {
+        color: #303031;
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+    
+    .hello-inner-block h3 {
+        color: #303031;
+        font-size: 28px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    
+    .hello-inner-block p {
+        color: #fff;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+    .cool-spot-middle {
+        background: #cfe1e3;
+        min-height: 500px;
+    }
+    
+    .cool-spot-inner {
+        max-width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .cool-spot-left {
+        width: 50%;
+        float: left;
+        border-right: solid 1px #8b9294;
+    }
+    
+    .cool-spot-left ul {
+        padding: 0;
+    }
+    
+    .cool-spot-left ul li {
+        padding: 0;
+        color: #343434;
+        font-size: 10px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+    
+    .cool-spot-left ul li span {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .cool-spot-right {
+        width: 50%;
+        float: left;
+    }
+    
+    .cool-spot-box-main {
+        float: right;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .cool-spot-box {
+        width: 220px;
+        height: 140px;
+        border: solid 1px #fff;
+        padding: 15px;
+    }
+    
+    .cool-spot-box h2 {
+        color: #4e4f4f;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    .cool-spot-box-main p {
+        color: #4e4f4f;
+        font-size: 19px;
+        font-weight: 400;
+        margin: 30px 0;
+    }
+    
+    .cool-spot-box h2 span {
+        font-size: 13px;
+        text-transform: none;
+    }
+    
+    .glass-prescription {
+        background: #e1e7eb;
+        height: auto;
+    }
+    
+    .complete-eye-exam {
+        background: #f8f5f1;
+        height: auto;
+    }
+    
+    .delivered-middle h3 {
+        font-size: 23px;
+        font-weight: 400;
+        color: #545454;
+        text-transform: uppercase;
+        line-height: 28px;
+    }
+    
+    .delivered-middle h4 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .delivered-middle h4 {
+        font-size: 13px;
+        font-weight: 500;
+        color: #545454;
+    }
+    
+    .delivered-middle .hello-inner-block {
+        padding: 50px 15px 100px;
+    }
+    
+    .glass-middle .hello-inner-block {
+        padding: 30px;
+        height: auto;
+    }
+    
+    .about-glass label {
+        font-size: 16px;
+        color: #303031;
+        text-transform: uppercase
+    }
+    
+    .about-glass input {
+        font-size: 16px;
+        color: #303031;
+        height: 60px;
+        border-radius: 0;
+    }
+    
+    .next-visit-middle {
+        background: #cfe1e3;
+        min-height: 500px;
+    }
+    
+    .next-visit-inner {
+        max-width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    ul.inner-nav {
+        margin: 60px 0;
+    }
+    
+    ul.inner-nav a {
+        color: #343434;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .user-pic-inner img {
+        margin-bottom: 12px;
+    }
+    
+    .guy-pics-box {
+        position: relative;
+    }
+    
+    .guy-pics-box p {
+        position: absolute;
+        left: 0;
+        bottom: 8px;
+        width: 100%;
+        color: #cfe1e3;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0;
+    }
